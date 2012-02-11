@@ -1,5 +1,5 @@
 *.suo
-*.sln
+*.user
 bin
 obj
-_Resharper.*
+_Resharper.IndiaApplication
