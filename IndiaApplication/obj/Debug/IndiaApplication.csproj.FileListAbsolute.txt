@@ -1,0 +1,5 @@
+C:\dev\IndiaApplication\IndiaApplication\bin\IndiaApplication.dll
+C:\dev\IndiaApplication\IndiaApplication\bin\IndiaApplication.pdb
+C:\dev\IndiaApplication\IndiaApplication\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\IndiaApplication\IndiaApplication\obj\Debug\IndiaApplication.dll
+C:\dev\IndiaApplication\IndiaApplication\obj\Debug\IndiaApplication.pdb

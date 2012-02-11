@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\dev\IndiaApplication\IndiaApplication.unit.test\bin\Debug\IndiaApplication.unit.test.dll" total="30" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-02-08" time="18:31:10">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.4927" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\dev\IndiaApplication" machine-name="DAVID-PC" user="David" user-domain="David-PC" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\dev\IndiaApplication\IndiaApplication.unit.test\bin\Debug\IndiaApplication.unit.test.dll" executed="True" result="Success" success="True" time="1.757" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="IndiaApplication" executed="True" result="Success" success="True" time="1.743" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="unit" executed="True" result="Success" success="True" time="1.743" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="test" executed="True" result="Success" success="True" time="1.742" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Controllers" executed="True" result="Success" success="True" time="1.742" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="AccountControllerTest" executed="True" result="Success" success="True" time="1.740" asserts="0">
+                        <results>
+                          <test-suite type="ParameterizedTest" name="ShouldAddStuffProperly" executed="True" result="Success" success="True" time="1.723" asserts="0">
+                            <results>
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(22,2,24)" executed="True" result="Success" success="True" time="0.120" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(1,2,3)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(30,2,32)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(3,2,5)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(4,2,6)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(5,2,7)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(6,2,8)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(7,2,9)" executed="True" result="Success" success="True" time="0.051" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(8,2,10)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(9,2,11)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(10,2,12)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(11,2,13)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(12,2,14)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(13,2,15)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(14,2,16)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(15,2,17)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(16,2,18)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(17,2,19)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(18,2,20)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(19,2,21)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(20,2,22)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(21,2,23)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(2,2,4)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(23,2,25)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(24,2,26)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(25,2,27)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(26,2,28)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(27,2,29)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(28,2,30)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                              <test-case name="IndiaApplication.unit.test.Controllers.AccountControllerTest.ShouldAddStuffProperly(29,2,31)" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1002]C:\dev\IndiaApplication\IndiaApplication.acceptance.test\bin\Debug\IndiaApplication.acceptance.test.dll</TopNode>
+  <SelectedNode>[0-1002]C:\dev\IndiaApplication\IndiaApplication.acceptance.test\bin\Debug\IndiaApplication.acceptance.test.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1002]C:\dev\IndiaApplication\IndiaApplication.acceptance.test\bin\Debug\IndiaApplication.acceptance.test.dll" Expanded="true" />
+    <Node UniqueName="[0-1003]IndiaApplication" Expanded="true" />
+    <Node UniqueName="[0-1004]IndiaApplication.acceptance" Expanded="true" />
+    <Node UniqueName="[0-1005]IndiaApplication.acceptance.test" Expanded="true" />
+    <Node UniqueName="[0-1000]IndiaApplication.acceptance.test.LogInTest" Expanded="true" />
+  </Nodes>
+</VisualState>
