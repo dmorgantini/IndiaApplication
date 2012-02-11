@@ -57,6 +57,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LogInTest.cs" />
+    <Compile Include="PageDriver.cs" />
+    <Compile Include="Pages\HomePage.cs" />
+    <Compile Include="Pages\LogInPage.cs" />
+    <Compile Include="Pages\RegisterUserPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
