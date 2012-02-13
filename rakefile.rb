@@ -34,6 +34,7 @@ desc "Deploy to target environment"
 task :deploy, [:env] do |t, args|
   configuration = YAML.load_file "deploy.yml"
   target_dir = configuration[args['env']]['target_dir']
+  Dir.foreach(target_dir) {|f| fn = File.join(target_dir, f); FileUtils.rm_r(fn) if f != '.' && f != '..'}
   FileUtils.cp_r("build/IndiaApplication.zip", target_dir)
   Rake::Task[:extract].invoke(target_dir)
   Rake::Task[:update_config].invoke(args['env'])
