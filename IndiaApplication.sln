@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndiaApplication.acceptance
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{90236D6C-E81E-46E4-AA49-AC857A223F6C}"
 	ProjectSection(SolutionItems) = preProject
+		deploy.yml = deploy.yml
 		rakefile.rb = rakefile.rb
+		test.yml = test.yml
 	EndProjectSection
 EndProject
 Global
