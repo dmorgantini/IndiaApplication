@@ -1,2 +1,4 @@
 test:
   target_dir: \\192.168.56.101\wwwroot
+dev:
+  target_dir: \\192.168.56.101\wwwroot
