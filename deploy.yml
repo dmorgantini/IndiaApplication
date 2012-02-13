@@ -1,4 +1,4 @@
 test:
-  target_dir: 'q:'
+  target_dir: \\192.168.56.101\wwwroot
 dev:
-  target_dir: 'q:'
+  target_dir: \\192.168.56.101\wwwroot
