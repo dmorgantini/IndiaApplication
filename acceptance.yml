@@ -1,0 +1,4 @@
+local:
+  target: 'http://localhost'
+dev:
+  target: 'http://192.168.56.101'

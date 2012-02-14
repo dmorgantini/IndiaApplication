@@ -1,4 +1,6 @@
-test:
-  target_dir: \\192.168.56.101\wwwroot
+local:
+  target_dir: IndiaApplication
 dev:
+  target_dir: \\192.168.56.101\wwwroot
+test:
   target_dir: \\192.168.56.101\wwwroot

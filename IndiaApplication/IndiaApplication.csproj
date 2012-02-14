@@ -118,7 +118,7 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Web.config.template">
+    <None Include="template.Web.config">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>

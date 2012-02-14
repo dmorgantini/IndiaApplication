@@ -1,4 +1,5 @@
 using OpenQA.Selenium;
+using FluentAssertions;
 
 namespace IndiaApplication.acceptance.test.Pages
 {
@@ -12,14 +13,19 @@ namespace IndiaApplication.acceptance.test.Pages
         }
 
 
-        public HomePage RegisterUser(dynamic user)
+        public RegisterUserPage RegisterUser(dynamic user)
         {
             UserName.SendKeys(user.Username);
             Email.SendKeys(user.Email);
             Password.SendKeys(user.Password);
             ConfirmPassword.SendKeys(user.Password);
             Register.Click();
-            return new HomePage(_webDriver);
+            return new RegisterUserPage(_webDriver);
+        }
+
+        public void AssertErrorMessagePresent()
+        {
+            PasswordValidationError.Displayed.Should().BeTrue();
         }
 
         private IWebElement Register
@@ -45,6 +51,11 @@ namespace IndiaApplication.acceptance.test.Pages
         private IWebElement UserName
         {
             get { return _webDriver.FindElement(By.Name("UserName")); }
+        }
+
+        private IWebElement PasswordValidationError
+        {
+            get { return _webDriver.FindElement(By.CssSelector("#Password.input-validation-error")); }
         }
     }
 }
