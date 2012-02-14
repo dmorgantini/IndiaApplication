@@ -19,6 +19,7 @@ desc "Run Tests"
 nunit :test do |nunit|
 	nunit.command = "packages/NUnit.2.5.10.11092/tools/nunit-console.exe"
 	nunit.assemblies "IndiaApplication.unit.test/bin/Debug/IndiaApplication.unit.test.dll"
+  nunit.options '/xml=unit.tests-results.xml'
 end
 
 desc "Package application"
@@ -65,6 +66,7 @@ desc "run acceptance tests against given environment"
 nunit :acceptance, [:env] => :build_acceptance_tests do |nunit|
   nunit.command = "packages/NUnit.2.5.10.11092/tools/nunit-console.exe"
   nunit.assemblies "IndiaApplication.acceptance.test/bin/Debug/IndiaApplication.acceptance.test.dll"
+  nunit.options '/xml=acceptance.tests-results.xml'
 end
 
 task :configure_acceptance_tests, [:env] do |t, args|
