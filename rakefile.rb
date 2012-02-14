@@ -6,13 +6,14 @@ task :default => [:build, :test]
 
 task :generate_local_config do
   Rake::Task[:update_config].invoke('local')
+  Rake::Task[::configure_acceptance_tests].invoke('local')
 end
 
 desc "Build Project"
 msbuild :build => :generate_local_config do |msb|
   msb.properties :configuration => :Debug
   msb.targets :Clean, :Build
-  msb.solution = "IndiaApplication/IndiaApplication.csproj", "IndiaApplication/IndiaApplication.unit.test.csproj"
+  msb.solution = "IndiaApplication.sln"
 end
 
 desc "Run Tests"
