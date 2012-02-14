@@ -43,7 +43,7 @@ task :deploy, [:env] do |t, args|
   Dir.foreach(target_dir) {|f| fn = File.join(target_dir, f); FileUtils.rm_r(fn) if f != '.' && f != '..'}
   FileUtils.cp_r("build/IndiaApplication.zip", target_dir)
   Rake::Task[:extract].invoke(target_dir)
-  FileUtils.rm_r("build/IndiaApplication.zip")
+  FileUtils.rm_r("#{target_dir}/IndiaApplication.zip")
   Rake::Task[:update_config].invoke(args['env'])
 end
 
