@@ -6,7 +6,7 @@ task :default => [:build, :test]
 
 task :generate_local_config do
   Rake::Task[:update_config].invoke('local')
-  Rake::Task[::configure_acceptance_tests].invoke('local')
+  Rake::Task[:configure_acceptance_tests].invoke('local')
 end
 
 desc "Build Project"
