@@ -12,7 +12,7 @@ desc "Build Project"
 msbuild :build => :generate_local_config do |msb|
   msb.properties :configuration => :Debug
   msb.targets :Clean, :Build
-  msb.solution = "IndiaApplication.sln"
+  msb.solution = "IndiaApplication/IndiaApplication.csproj", "IndiaApplication/IndiaApplication.unit.test.csproj"
 end
 
 desc "Run Tests"

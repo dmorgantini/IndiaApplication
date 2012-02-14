@@ -8,12 +8,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndiaApplication.acceptance.test", "IndiaApplication.acceptance.test\IndiaApplication.acceptance.test.csproj", "{43F4D301-BEFD-4E20-9EE6-2345D8293BCB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{90236D6C-E81E-46E4-AA49-AC857A223F6C}"
-	ProjectSection(SolutionItems) = preProject
-		acceptance.yml = acceptance.yml
-		deploy.yml = deploy.yml
-		rakefile.rb = rakefile.rb
-		test.yml = test.yml
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
