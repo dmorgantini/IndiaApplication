@@ -4,4 +4,6 @@ bin
 obj
 _Resharper.IndiaApplication
 build
-TestResult.xml
+*tests-results.xml
+App.config
+Web.config
