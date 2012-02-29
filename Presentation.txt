@@ -1,0 +1,215 @@
+
+
+
+
+
+
+
+Title: Simple Continuous Delivery in .NET 
+          using Rake & Powershell
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+1) Who am I?
+  - David Morgantini 
+  Twitter: @dmorgantini 
+  Blog: davidmorgantini.blogspot.com
+  - Lead Consultant with ThoughtWorks UK
+  - Canadian living in London
+  - Getting paid to write software since 2005
+
+    
+    
+    
+    
+
+  
+  
+  
+  
+  
+2) Why am I here?
+  - I love Indian food
+  - I believe in Continuous Delivery
+  - I believe that implementing Continuous Delivery 
+  is an incremental process
+  - The value is realized at each step of the way
+  - The first steps are not difficult
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+3) Why are you here?
+  - You heard there are cookies...?
+  - You are hoping to learn something
+    - Continuous Delivery
+    - RUBY & RAKE
+    - YAML & env config
+    - Polyglot development
+    - Leveraging microsoft tools for good
+  - Things you won't learn
+    - Full Continuous Delivery
+      - Architecture
+      - Feature toggles
+    - Databases
+  - Tomorrow your development life is different
+
+  
+  
+  
+  
+ 
+
+
+ 
+4) How this will work?  
+  - Brief explanation of Continuous Delivery
+  - Demonstration of setting up a 
+    functional Delivery Pipeline
+  
+  - Pragmatic approach - easy & cheap
+  - Using Teamcity for the demo 
+    not go, jenkins or buildbot
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+5) Spectrum of Continuous Delivery
+  a) Nothing 
+    - no automation
+  b) Continuous Build
+    - running with CI server
+    - build on every check-in
+  c) Continuous Integration
+    - Running a suite of unit/integration
+      tests on a local package
+    - Might run a suite of acceptance tests
+      against something that is locally hosted
+  d) Continuous Deployment
+    - Automatically deployed to various environments
+    - Running a suite of acceptance tests 
+    against each environment
+    - Dev environment & Integration environment
+    fully automated
+      -> Test environment deployment triggered
+  e) Continuous Delivery
+    - The ability to deploy new functionality into 
+      production rests in the hands of the business
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+6) A Demo
+  a) Where are we now:
+    ASP MVC project
+    Unit tests
+    Locally runnable acceptance tests
+    Ruby installed
+    Teamcity build running the build and unit tests
+  
+  
+  
+  
+  
+  
+  
+
+ 
+  
+  b) Deployment
+    -> Shared folder 
+      (downside -> can't use windows service)
+    -> Powershell remoting 
+      (downside -> more complex)
+    
+
+    
+    
+    
+    
+    
+    
+  c) - Configuration
+    -> Templating (requires initial build 
+                  before you can work, complexity)
+      -> default templating
+    -> Multiple config (large cost in maintenance)
+    
+  
+
+
+
+
+
+  
+  d) Local configuration
+  
+  
+
+
+  
+  
+
+
+
+In Conclusion:
+
+Embrace polyglot development
+Start on the path to continuous delivery
+Use open source tools to make your life much easier
+
+
+  
+  
+  
+  
+  
+  
+
+Thank you!!!
+
+David Morgantini
+Twitter: @dmorgantini
+Blog: davidmorgantini.blogspot.com
+  
+  
+  
+
+    
+    
+    
+
+    
+    
+    
